@@ -1,0 +1,93 @@
+.input_page {
+  border: 1px solid black;
+  width: 25em;
+  height: auto;
+  text-align: center;
+  background-color: rgb(211, 221, 222);
+  border-radius: 10px;
+}
+#takeInput,
+#nme {
+  height: 2em;
+  padding: 0%;
+  outline: none;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0%;
+  background-color: aliceblue;
+  border: none;
+}
+body {
+  margin: 0%;
+  margin-top: 50px;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(138, 136, 136);
+}
+p {
+  margin: 0%;
+  min-height: 1.5em;
+}
+table,
+th,
+td {
+  gap: 0%;
+  margin: 0%;
+  padding: 5px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+table {
+  width: 98%;
+}
+tr {
+  min-height: 2em;
+}
+th,
+td {
+  width: 50%;
+}
+
+.heading {
+  color: rgb(0, 8, 114);
+}
+.main_container {
+  min-height: 70vh;
+  width: 30vw;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: rgb(228, 248, 255);
+
+  text-align: center;
+}
+.choices {
+  height: 5em;
+  margin: 0%;
+  padding: 0%;
+  border: 2px solid rgb(1, 10, 185);
+  border-radius: 50%;
+  margin: 15px;
+}
+.score_board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#results_out {
+  min-height: 10em;
+  min-width: 50em;
+  border: 2px solid rgb(12, 12, 11);
+  border-radius: 40px;
+  text-align: center;
+}
+button {
+  height: 2.5em;
+  font-size: large;
+  margin: 15px;
+  border-radius: 40px;
+  background-color: coral;
+  color: blue;
+}
